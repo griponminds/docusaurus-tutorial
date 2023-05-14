@@ -1,41 +1,19 @@
-# Website
+# Docusaurus でつくるドキュメントサイト
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+grip on minds のブログ記事「[Docusaurus でつくるドキュメントサイト](https://griponminds.jp/blog/docusaurus-01/)」のプロジェクトデータです。
 
-### Installation
+## インストール
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```zsh
+npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Docusaurus の起動
 
-### Build
-
-```
-$ yarn build
+```zsh
+npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 免責事項
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+当サイトに掲載している情報や本ダウンロードデータによって生じた損害・損失等について、当方は一切の責任を負いませんのであらかじめご了承ください。
