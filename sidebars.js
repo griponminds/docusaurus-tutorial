@@ -35,6 +35,10 @@ const sidebars = {
       type: 'doc',
       id: 'information',
     },
+    {
+      type: 'doc',
+      id: 'markdown',
+    },
   ],
 };
 
