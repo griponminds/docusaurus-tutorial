@@ -39,6 +39,11 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: '記事一覧',
+          truncateMarker: /<!--\s*(more)\s*-->/,
+          remarkPlugins: [
+            [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
+          ],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

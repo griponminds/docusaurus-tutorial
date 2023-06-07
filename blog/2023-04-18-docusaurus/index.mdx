@@ -1,0 +1,50 @@
+---
+slug: docusaurus
+authors:
+  - duck
+tags: 
+  - Docusaurus
+---
+
+# Docusaurus について
+
+この「CMS 操作ガイド」は [Docusaurus](https://docusaurus.io/) でつくられています。
+
+Docusaurus は、Meta 社が開発する、React ベースのドキュメントサイトに特化した静的サイトジェネレータ（SSG、Static Site Generator）です。
+
+![Docusaurus 公式サイトのスクリーンショット](./img-docusaurus-site.webp)
+
+<!--more-->
+
+## Docusaurus の特徴
+
+Docusaurus のおもな特徴や機能は以下のとおりです。
+
+- ドキュメントサイトの構築に特化
+- コンテンツを Markdown / MDX 形式で管理
+- 多言語対応（i18n）
+- バージョニング
+- 検索機能（公式で Algolia をサポート）
+- React コンポーネントのカスタマイズ性と拡張性
+- SEO フレンドリー
+- ハイパフォーマンス（SPA のページ遷移、PRPL パターンを採用）
+- アクセシビリティが確保されたコンポーネント
+- ライトモード / ダークモード切り替え
+
+:::note
+
+2023 年 5 月での最新バージョンである 2.4.0 の機能です [^1] 。
+
+:::
+
+[^1]: 次期メジャーバージョンである、v3 の開発も進んでいるようです（[Release process | Docusaurus](https://docusaurus.io/community/release-process#next-version)）。
+
+多言語対応やバージョニングのように高度な機能もありますが、何よりも**気の利いたドキュメントサイトが直感的に手早く構築できる**のが大きな魅力です。
+
+他方で、レイアウトやコンポーネントはドキュメントサイト向けに最適化されているため、デザインをカスタマイズできる範囲は限られています。レイアウトやコンポーネントを細かくカスタマイズする機能（Swizzling）も用意されていますが、コンポーネントによっては Docusaurus をアップグレードした際に影響を及ぼすリスクがあります [^2] 。
+
+[^2]: Swizzling の詳細は「[Swizzling | Docusaurus](https://docusaurus.io/docs/swizzling)」をご確認ください。
+
+なお、類似するツールとしては VuePress が挙げられますが、ベースとなるフレームワークが React か Vue.js かという点が最大の違いです。ほかのツールとの比較については Docusaurus の以下のページでも説明されています。
+
+- [Comparison with other tools | Docusaurus](https://docusaurus.io/docs#comparison-with-other-tools)
